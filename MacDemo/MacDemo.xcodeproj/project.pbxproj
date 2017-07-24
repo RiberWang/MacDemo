@@ -18,6 +18,8 @@
 		07D645431F21E58C00AFD464 /* WeChat.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D645411F21E58C00AFD464 /* WeChat.png */; };
 		07D645451F21ED5E00AFD464 /* Alipay.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D645441F21ED5E00AFD464 /* Alipay.png */; };
 		07D645491F21EE5200AFD464 /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D645481F21EE5200AFD464 /* QQ.png */; };
+		07D645521F259E9300AFD464 /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D645501F259E9300AFD464 /* Test1.m */; };
+		07D645531F259E9300AFD464 /* Test1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D645511F259E9300AFD464 /* Test1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		07D645411F21E58C00AFD464 /* WeChat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeChat.png; sourceTree = "<group>"; };
 		07D645441F21ED5E00AFD464 /* Alipay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alipay.png; sourceTree = "<group>"; };
 		07D645481F21EE5200AFD464 /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
+		07D6454F1F259E9300AFD464 /* Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		07D645501F259E9300AFD464 /* Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		07D645511F259E9300AFD464 /* Test1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 				07D6450C1F21D78100AFD464 /* AppDelegate.m */,
 				07D645111F21D78100AFD464 /* ViewController.h */,
 				07D645121F21D78100AFD464 /* ViewController.m */,
+				07D6454F1F259E9300AFD464 /* Test1.h */,
+				07D645501F259E9300AFD464 /* Test1.m */,
+				07D645511F259E9300AFD464 /* Test1.xib */,
 				07D645141F21D78100AFD464 /* Assets.xcassets */,
 				07D645161F21D78100AFD464 /* Main.storyboard */,
 				07D645191F21D78100AFD464 /* Info.plist */,
@@ -280,6 +288,7 @@
 				07D645151F21D78100AFD464 /* Assets.xcassets in Resources */,
 				07D645431F21E58C00AFD464 /* WeChat.png in Resources */,
 				07D645181F21D78100AFD464 /* Main.storyboard in Resources */,
+				07D645531F259E9300AFD464 /* Test1.xib in Resources */,
 				07D645451F21ED5E00AFD464 /* Alipay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +317,7 @@
 				07D645131F21D78100AFD464 /* ViewController.m in Sources */,
 				07D6453E1F21E41500AFD464 /* RBAppModel.m in Sources */,
 				07D645101F21D78100AFD464 /* main.m in Sources */,
+				07D645521F259E9300AFD464 /* Test1.m in Sources */,
 				07D6450D1F21D78100AFD464 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,6 +553,7 @@
 				07D645341F21D78100AFD464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07D645351F21D78100AFD464 /* Build configuration list for PBXNativeTarget "MacDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +562,7 @@
 				07D645371F21D78100AFD464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07D645381F21D78100AFD464 /* Build configuration list for PBXNativeTarget "MacDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +571,7 @@
 				07D6453A1F21D78100AFD464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

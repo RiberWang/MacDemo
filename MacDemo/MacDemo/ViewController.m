@@ -8,11 +8,14 @@
 
 #import "ViewController.h"
 #import "RBAppModel.h"
+#import "Test1.h"
+#import "AppDelegate.h"
 
 @interface ViewController () <NSTableViewDelegate, NSTableViewDataSource>
 
 @property (weak) IBOutlet NSTableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
+@property (nonatomic, strong) NSWindow *secondWindow;
 
 @end
 
@@ -61,6 +64,27 @@
 
 - (CGFloat)tableView:(NSTableView *)tableView heightOfRow:(NSInteger)row {
     return 30;
+}
+
+- (IBAction)addButtonClick:(id)sender {
+    NSWindow *mainWindow = [NSApplication sharedApplication].mainWindow;
+
+    _secondWindow = [[NSWindow alloc] init];
+    _secondWindow.title = @"第二个页面";
+    [_secondWindow setFrame:NSMakeRect(500, 500, 500, 500) display:YES];
+    Test1 *vc = [[Test1 alloc] initWithNibName:@"Test1" bundle:nil];
+    [_secondWindow.contentView addSubview:vc.view];
+    
+    vc.view.frame = _secondWindow.contentView.bounds;
+
+    mainWindow = _secondWindow;
+    
+    [_secondWindow makeKeyAndOrderFront:nil];
+    [self.view.window orderOut:nil];
+    
+}
+
+- (IBAction)deleteButtonClick:(id)sender {
 }
 
 @end
