@@ -80,7 +80,7 @@
     mainWindow = _secondWindow;
     
     [_secondWindow makeKeyAndOrderFront:nil];
-    [self.view.window orderOut:nil];
+//    [self.view.window orderOut:nil];
     
 }
 
